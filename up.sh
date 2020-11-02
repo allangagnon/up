@@ -48,8 +48,6 @@ housekeeping() {
 	sudo apt-get autoclean -y;
 	check_exit_status
 
-	sudo updatedb;
-	check_exit_status
 }
 
 leave() {
